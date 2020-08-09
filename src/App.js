@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Tabs, Tab, TabContent } from "./Tabs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Tabs>
+      <Tab>hello</Tab>
+      <Tab>hello</Tab>
+      <Tab>hello</Tab>
+
+      <TabContent>
+        <h1>hello</h1>
+      </TabContent>
+      <TabContent>
+        <h1>fukcyou</h1>
+      </TabContent>
+      <TabContent>
+        <h1>suck my balls</h1>
+      </TabContent>
+    </Tabs>
   );
 }
 
