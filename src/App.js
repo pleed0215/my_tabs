@@ -10,6 +10,7 @@ function App() {
 
       <TabContent>
         <h1>hello</h1>
+        <p>lorem ipsum</p>
       </TabContent>
       <TabContent>
         <h1>fukcyou</h1>
